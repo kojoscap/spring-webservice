@@ -11,4 +11,14 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
+	
+//	@Bean
+//	public FilterRegistrationBean encodingFilterBean() {
+//		FilterRegistrationBean registrationBean = new FilterRegistrationBean();
+//		CharacterEncodingFilter charEncodingFilter = new CharacterEncodingFilter();
+//		charEncodingFilter.setForceEncoding(true);
+//		charEncodingFilter.setEncoding("UTF-8");
+//		registrationBean.setFilter(charEncodingFilter);
+//		return registrationBean;
+//	}
 }
